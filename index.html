@@ -1351,7 +1351,7 @@ function renderAboutPage() {
         <div class="astat" onclick="go('settings');setTimeout(()=>document.getElementById('gsThemeRow')?.scrollIntoView({behavior:'smooth'}),100)" title="去设置 → 主题" style="cursor:pointer"><div class="astat-num">19</div><div class="astat-lbl">主题</div></div>
         <div class="astat" onclick="go('settings');setTimeout(()=>document.getElementById('gsAccentRow')?.scrollIntoView({behavior:'smooth'}),100)" title="去设置 → 强调色" style="cursor:pointer"><div class="astat-num">9</div><div class="astat-lbl">强调色</div></div>
         <div class="astat" title="JPG · PNG · WebP · AVIF · BMP · ICO"><div class="astat-num">6</div><div class="astat-lbl">导出格式</div></div>
-        <div class="astat" onclick="go('settings');setTimeout(()=>document.querySelector('#v-settings .sec-h:last-of-type')?.scrollIntoView({behavior:'smooth'}),100)" title="去设置 → 数据管理" style="cursor:pointer"><div class="astat-num">~5967</div><div class="astat-lbl">行代码</div></div>
+        <div class="astat" onclick="go('settings');setTimeout(()=>document.querySelector('#v-settings .sec-h:last-of-type')?.scrollIntoView({behavior:'smooth'}),100)" title="去设置 → 数据管理" style="cursor:pointer"><div class="astat-num">~5973</div><div class="astat-lbl">行代码</div></div>
       </div>
       <div style="display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:10px">
         <span class="pbadge">${modeLabel}</span>
@@ -1441,10 +1441,10 @@ function renderAboutPage() {
     </div>`)}
 
     ${_aboutFold('📧 联系 & 反馈', false, `<div style="font-size:12px;color:var(--tx2);line-height:2">
-      <p>🐛 发现问题或有新功能建议？欢迎通过以下方式反馈：</p>
-      <p>📧 邮箱：<a href="mailto:mike-666@foxmail.com" style="color:var(--ac)">mike-666@foxmail.com</a></p>
+      <p>🐛 发现问题或有新功能建议？欢迎提 Issue：</p>
+      <p>💬 <a href="https://github.com/Luo-Feng6/image-toolbox/issues" target="_blank" rel="noopener noreferrer" style="color:var(--ac)">提交 Issue</a> · 附上版本号（V4.16）方便定位</p>
       <p>🔗 仓库：<a href="https://github.com/Luo-Feng6/image-toolbox" target="_blank" rel="noopener noreferrer" style="color:var(--ac)">github.com/Luo-Feng6/image-toolbox</a></p>
-      <p style="margin-top:6px;color:var(--tx2)">💡 <a href="https://github.com/Luo-Feng6/image-toolbox/issues" target="_blank" rel="noopener noreferrer" style="color:var(--ac)">提交 Issue</a> 反馈问题 · 附上版本号（V4.14）更方便定位</p>
+      <p style="margin-top:6px;color:var(--tx2)">💡 提 Issue 时说明使用方式（浏览器版 / 桌面版）会更快定位</p>
     </div>`)}
 
     ${_aboutFold('💡 数据说明', false, `<div style="font-size:11px;color:var(--tx2);line-height:1.7;text-align:center">
